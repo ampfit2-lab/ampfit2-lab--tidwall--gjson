@@ -1,0 +1,14 @@
+[
+  {
+    "file": ".github/workflows/go.yml",
+    "job": "build",
+    "step": "Set up Go 1.x",
+    "uses": "actions/setup-go@v2"
+  },
+  {
+    "file": ".github/workflows/go.yml",
+    "job": "build",
+    "step": "Check out code into the Go module directory",
+    "uses": "actions/checkout@v2"
+  }
+]
